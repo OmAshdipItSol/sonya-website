@@ -1,0 +1,7 @@
+# Digital-I Security Solutions
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+Sitemap: https://digital-i.com/sitemap.xml
