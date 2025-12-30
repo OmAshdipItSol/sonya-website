@@ -8,6 +8,10 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  verification: {
+    google: "X0T_hEywc2vs5pq0fgPVcYwYjFwsJHF6yDR2nuR4EVY",
+  },
+
   title: "Digital-I | Smart Surveillance & Security Solutions in Pune",
   description:
     "Professional CCTV, EPABX, Access Control & security solutions for homes, offices & enterprises in Pune. Expert installation & 24/7 monitoring.",
