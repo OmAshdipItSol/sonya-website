@@ -84,39 +84,47 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="theme-color" content="#0f172a" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              name: "Digital-I",
-              description: "Professional Security & Surveillance Solutions",
-              url: "https://digital-i.com",
-              telephone: "+919158031664",
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Pune",
-                addressRegion: "Maharashtra",
-                addressCountry: "IN",
-              },
-              areaServed: ["Pune", "Maharashtra", "India"],
-              serviceType: [
-                "CCTV Surveillance",
-                "EPABX Systems",
-                "Access Control",
-                "Video Door Phones",
-                "Time Attendance Systems",
-                "Security Systems",
-              ],
-              priceRange: "$$",
-              image: "/images/logo.jpeg",
-            }),
-          }}
-        />
-      </head>
+  <meta
+    name="google-site-verification"
+    content="X0T_hEywc2vs5pq0fgPVcYwYjFwsJHF6yDR2nuR4EVY"
+  />
+  <meta name="theme-color" content="#0f172a" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no"
+  />
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        name: "Digital-I",
+        description: "Professional Security & Surveillance Solutions",
+        url: "https://digitall-i.vercel.app",
+        telephone: "+919158031664",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Pune",
+          addressRegion: "Maharashtra",
+          addressCountry: "IN",
+        },
+        areaServed: ["Pune", "Maharashtra", "India"],
+        serviceType: [
+          "CCTV Surveillance",
+          "EPABX Systems",
+          "Access Control",
+          "Video Door Phones",
+          "Time Attendance Systems",
+          "Security Systems",
+        ],
+        priceRange: "$$",
+        image: "/images/logo.jpeg",
+      }),
+    }}
+  />
+</head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
