@@ -15,10 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* GOOGLE SITE VERIFICATION */}
-        <meta
-          name="google-site-verification"
-          content="X0T_hEywc2vs5pq0fgPVcYwYjFwsJHF6yDR2nuR4EVY"
-        />
+        <meta name="google-site-verification" content="X0T_hEywc2vs5pq0fgPVcYwYjFwsJHF6yDR2nuR4EVY" />
 
         {/* THEME & VIEWPORT */}
         <meta name="theme-color" content="#0f172a" />
